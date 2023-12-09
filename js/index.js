@@ -19,14 +19,6 @@ function generateQuotes() {
 
     document.getElementById("name").innerHTML=author[num];
     document.getElementById("quote").innerHTML=quote[num];
-
-    /* if(num==old) {
-        num = Math.floor( Math.random() * author.length );
-    }
-    else {
-        document.getElementById("name").innerHTML=author[num];
-        document.getElementById("quote").innerHTML=quote[num];
-    } */
 }
 
 generateQuotes()
