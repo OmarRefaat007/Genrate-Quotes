@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --oswald-font: 'Oswald', sans-serif;
+    --whisper-font: 'Whisper', cursive;
+    --roboto-font: 'Roboto', sans-serif;
+    --main-color: #28bed9;
+}
+
+nav h1 {
+    font-family: var(--oswald-font);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+nav h1 span {
+    font-weight: 200;
+    color:#FEFEFE;
+}
+
+#Home {
+    background-image: linear-gradient(to top , #000000c9 0% 40% , #00000089) , url(../images/86f385181882953.652401f5f1403.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#Home .home-caption {
+    position: relative;
+}
+
+#Home .home-caption::before {
+    content: open-quote;
+    font-family: var(--oswald-font);
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    color: var(--main-color);
+}
+
+#Home .home-caption::after {
+    content: close-quote;
+    font-family: var(--oswald-font);
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translateY(-50%);
+    color: var(--main-color);
+}
+
+#Home .home-caption h2 {
+    font-family: var(--oswald-font);
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+#Home .home-caption .author-quote {
+    width: 50%;
+}
+
+#Home .home-caption p {
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+#Home .my-card {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin-top: 80px;
+}
+
+#Home .my-card::before {
+    content: open-quote;
+    font-family: var(--oswald-font);
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    top: 74%;
+    left: -6%;
+    color: var(--main-color);
+}
+
+#Home .my-card::after {
+    content: close-quote;
+    font-family: var(--oswald-font);
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    top: -15%;
+    right: -3%;
+    color: var(--main-color);
+}
+
+#Home .my-card .author-name h2 {
+    font-family: var(--oswald-font);
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+#Home .my-card .author-quote p {
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+#Home .button {
+    padding-top: 80px;
+}
+
+#Home .button button {
+    font-family: var(--roboto-font);
+    font-weight: 500;
+    font-size: 16px;
+    color: #164863;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+}
+
+#Home .button button:hover {
+    color: #FFF;
+    background-color: #164863;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Roboto:wght@300;400;500&family=Whisper&display=swap" rel="stylesheet">
+    <title>Greek Quotes</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="container fixed-top py-4">
+        <h1>GREEK <span>QUOTES</span></h1>
+    </nav>
+    <header id="Home" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="my-card">
+            <div class="author-name">
+                <h2 id="name"></h2>
+            </div>
+            <div class="author-quote">
+                <div class="layer"></div>
+                <p id="quote"></p>
+            </div>
+        </div>
+        <div onclick="generateQuotes()" class="button">
+            <button class="my-btn">New Quote</button>
+        </div>
+    </header>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- index js -->
+    <script src="js/index.js"></script>
+</body>
+</html>
